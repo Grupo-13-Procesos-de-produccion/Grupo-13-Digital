@@ -70,7 +70,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
+    background-image: url("img/ https://cdn.glitch.com/e1ac6c9a-4b83-44b6-aa43-a866ab110d61%2F4x3-03.png?v=1633211641020");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("https://cdn.glitch.com/e1ac6c9a-4b83-44b6-aa43-a866ab110d61%2F4x3-03.png?v=1633211641020");
+        background-image: url("4x3");
     }
 }
 
