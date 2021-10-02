@@ -14,19 +14,19 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #4B94B9;
-    --segundocolor: #B51F1C; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #424141; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(244, 244, 244, 0.9);
-    --coloroscuro: rgba(66, 65, 65, 0.9);
+    --celeste: #4B94B9;
+    --rojo: #B51F1C; /* menos luminoso y más saturado que el primero */
+    --gris: #424141; /* más luminoso y menos saturado que el primero */
+    --blanco: rgba(244, 244, 244, 0.9);
+    --gris: rgba(66, 65, 65, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Rubik", sans-serif;
     font-weight: 300;
-    background: var(--colorclaro);
-    color: var(--coloroscuro);
+    background: var(--blanco);
+    color: var(--gris);
 }
 
 strong {
@@ -35,7 +35,6 @@ strong {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -45,13 +44,17 @@ p.lead {
     font-weight: 500;
 }
 
+h3 {
+    color: var(--
+}
+
 a {
-    color: var(--tercercolor);
+    color: var(--gris);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--blanco);
     text-decoration: none;
 }
 
@@ -69,12 +72,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: var(--rojo);
     background-image: url("https://cdn.glitch.com/e1ac6c9a-4b83-44b6-aa43-a866ab110d61%2F16x9-02.png?v=1633211342090");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--blanco);
 }
 
 @media (min-width: 576px) {
@@ -110,22 +113,22 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--coloroscuro);
+    background: var(--blqnco);
+    color: var(--gris);
 }
 
 footer {
-    color: var(--segundocolor);
+    color: var(--celeste);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundocolor);
+    color: var(--blanco);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(--rojo);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
