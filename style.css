@@ -7,8 +7,8 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url(“https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap”);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 
@@ -24,8 +24,8 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Rubik", sans-serif;
-    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     background: var(--blanco);
     color: var(--gris);
 }
@@ -41,7 +41,7 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Montserrat", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
 }
 
